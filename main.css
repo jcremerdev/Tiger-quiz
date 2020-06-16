@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.image{
+    width: 95%;
+    max-width: 200px;
+}
+
+body{
+    font-family: 'comic sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #AD343E;
+
+}
+
+.header{
+    text-align: center;
+}
+
+.eyeOfTheTiger{
+    max-width: 300px;
+}
+
+.startBox{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 5px;
+    border: #474747;
+    background-color: #E0E0CE;
+
+}
+
+.golfBox{
+    display: flex;
+    background: url(images/masters.jpg) fixed;
+    border: 5px #000000;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
